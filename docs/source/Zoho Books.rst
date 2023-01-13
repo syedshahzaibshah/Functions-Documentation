@@ -43,8 +43,8 @@ Sales Orders
   #.  Create a PO.
   #.  Update PO number on Estimate
 
-.. image:: Function-Documentation/images/img.bmp
-  :width: 400
+.. image:: /images/cost_items.png
+  :width: 1000
   :alt: Alternative text
 
 To retrieve a list of random ingredients,
