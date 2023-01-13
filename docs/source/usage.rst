@@ -1,7 +1,7 @@
 Zoho Books
 =========
 
-.. _Estimate:
+.. _installation:
 
 Installation
 ------------
