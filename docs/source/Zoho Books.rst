@@ -35,6 +35,14 @@ Sales Orders
   | Zoho Books             |  Sales Order  |     No    |     Yes     |       No       |   Live  |
   +------------------------+---------------+-----------+-------------+----------------+---------+
 
+  **Steps:**
+  
+  1. Search all cost items(custom module) by using estimate line items.
+  2. List the vendors from cost items and remove duplicates.
+  3. Get all cost items against vendors and create a PO.
+  4. Create a PO.
+  5. Update PO number on Estimate
+
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
 
