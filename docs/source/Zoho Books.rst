@@ -37,7 +37,7 @@ Sales Orders
 
   **Steps:**
   
-  #.  Search all .. color:: red |cost items(custom module)| by using estimate line items.
+  #.  Search all :: cost items(custom module). by using estimate line items.
   #.  List the vendors from cost items and remove duplicates.
   #.  Get all cost items against vendors and create a PO.
   #.  Create a PO.
