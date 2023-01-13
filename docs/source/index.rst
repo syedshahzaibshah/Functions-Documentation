@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
-===================================
+ZOHO Functions Documentation
+============================
 
-**Lumaches** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**ZOHO Functions Documentation** will help you to understand the workflows and functions working and functionality in details against the account of Blink Sings. 
 
 .. note::
 
