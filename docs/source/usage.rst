@@ -1,7 +1,7 @@
-Usage
-=====
+Zoho Books
+=========
 
-.. _installation:
+.. _Estimate:
 
 Installation
 ------------
