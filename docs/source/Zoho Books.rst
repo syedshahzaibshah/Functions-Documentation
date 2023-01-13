@@ -6,7 +6,7 @@ Zoho Books
 Estimates
 ---------
 
-- **Convert Estimate to SO**  (11 Jan 2023)
+- **Convert Estimate to Sales Order**  (11 Jan 2023)
 
   +------------------------+---------------+-----------+-------------+----------------+----------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status  |
@@ -18,6 +18,14 @@ Estimates
 
 Sales Orders
 ------------
+
+- **Convert Sales Order to Purchase Order**
+
+  +------------------------+---------------+-----------+-------------+----------------+---------+
+  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
+  +========================+===============+===========+=============+================+=========+
+  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  +------------------------+---------------+-----------+-------------+----------------+---------+
 
 - **Update SO Details on Zoho Project**
 
