@@ -43,10 +43,10 @@ Sales Orders
   :width: 1000
   :alt: Alternative text
   
-  List the vendors from cost items and remove duplicates.
-  Get all cost items against vendors and create a PO.
-  Create a PO.
-  Update PO number on Estimate
+List the vendors from cost items and remove duplicates.
+Get all cost items against vendors and create a PO.
+Create a PO.
+Update PO number on Estimate
   
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
