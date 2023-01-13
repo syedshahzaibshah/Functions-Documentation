@@ -1,7 +1,8 @@
 Zoho Books
 ==========
 
-.. _installation:
+.. _Estimate:
+.. _SalesOrder:
 
 Installation
 ------------
