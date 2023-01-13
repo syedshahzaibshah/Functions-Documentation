@@ -3,8 +3,8 @@ Zoho Books
 
 .. _Estimate:
 
-Installation
-------------
+Estimate
+--------
 
 To use Lumache, first install it using pip:
 
