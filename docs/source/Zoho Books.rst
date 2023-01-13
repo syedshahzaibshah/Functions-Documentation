@@ -11,17 +11,21 @@ Estimates
   +------------------------+---------------+-----------+-------------+----------------+---------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
   +========================+===============+===========+=============+================+=========+
-  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  | Zoho Books             |    Estimate   |    Yes    |      No     |       No       |   Live  |
   +------------------------+---------------+-----------+-------------+----------------+---------+
 
    Create Sales Order when estimate is accepted. Live (11 Jan 2023).
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
 Sales Orders
 ------------
+
+- **Update SO Data on Zoho Project**
+
+  +------------------------+---------------+-----------+-------------+----------------+---------+
+  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
+  +========================+===============+===========+=============+================+=========+
+  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  +------------------------+---------------+-----------+-------------+----------------+---------+
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
