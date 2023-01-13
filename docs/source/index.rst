@@ -15,5 +15,5 @@ Contents
 
 .. toctree::
 
-   Estimate
+   Zoho Books
    api
