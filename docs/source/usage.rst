@@ -1,5 +1,5 @@
-Usage
-=====
+Zoho Books
+==========
 
 .. _installation:
 
