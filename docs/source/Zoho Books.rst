@@ -1,9 +1,9 @@
 Zoho Books
 ==========
 
-.. _estimate:
+.. _estimates:
 
-Estimate
+Estimates
 --------
 
 - **Convert Estimate to SO**
@@ -20,7 +20,7 @@ Estimate
 
    (.venv) $ pip install lumache
 
-Sales Order
+Sales Orders
 -----------
 
 To retrieve a list of random ingredients,
