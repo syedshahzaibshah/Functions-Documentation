@@ -43,6 +43,10 @@ Sales Orders
   #.  Create a PO.
   #.  Update PO number on Estimate
 
+.. image:: Function-Documentation/images/img.bmp
+  :width: 400
+  :alt: Alternative text
+
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
 
