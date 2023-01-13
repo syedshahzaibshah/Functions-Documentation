@@ -20,8 +20,8 @@ Estimate
 
    (.venv) $ pip install lumache
 
-Creating recipes
-----------------
+Sales Order
+-----------
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
