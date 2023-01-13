@@ -15,5 +15,5 @@ Contents
 
 .. toctree::
 
-   Zoho CRM
    Zoho Books
+   Zoho CRM
