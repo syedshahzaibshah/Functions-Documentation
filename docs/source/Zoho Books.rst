@@ -6,7 +6,15 @@ Zoho Books
 Estimate
 --------
 
-To use Lumache, first install it using pip:
+- **Convert Estimate to SO**
+
+  +------------------------+---------------+-----------+-------------+----------------+---------+
+  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
+  +========================+===============+===========+=============+================+=========+
+  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  +------------------------+---------------+-----------+-------------+----------------+---------+
+
+   Create Sales Order when estimate is accepted. Live (11 Jan 2023).
 
 .. code-block:: console
 
