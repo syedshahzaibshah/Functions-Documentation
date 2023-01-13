@@ -39,9 +39,9 @@ Sales Orders
   
   #.  Search all ``cost items(custom module)`` by using estimate line items.
   
-  .. image:: /images/cost_items.png
-    :width: 1400
-    :alt: Alternative text
+.. image:: /images/cost_items.png
+     :width: 1400
+     :alt: Alternative text
   
   
 2.  List the vendors from cost items and remove duplicates.
