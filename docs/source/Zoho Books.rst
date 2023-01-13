@@ -32,7 +32,7 @@ Sales Orders
   +------------------------+---------------+-----------+-------------+----------------+---------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
   +========================+===============+===========+=============+================+=========+
-  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  | Zoho Books             |  Sales Order  |     No    |     Yes     |       No       |   Live  |
   +------------------------+---------------+-----------+-------------+----------------+---------+
 
 To retrieve a list of random ingredients,
