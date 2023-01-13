@@ -19,7 +19,7 @@ Estimates
 Sales Orders
 ------------
 
-- **Update SO Data on Zoho Project**
+- **Update SO Details on Zoho Project**
 
   +------------------------+---------------+-----------+-------------+----------------+---------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
