@@ -40,8 +40,8 @@ Sales Orders
   #.  Search all ``cost items(custom module)`` by using estimate line items.
   
 .. image:: /img/cost_items.png
-     :width: 200
-     :height: 200
+     :width: 800
+     :height: 600
      :scale: 50%
      :alt: Alternative text
      :align: center
