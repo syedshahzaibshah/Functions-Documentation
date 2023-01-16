@@ -16,12 +16,16 @@ Estimates
 
 **Steps:**
 
-#.  Check is Zoho Project is associated with Estimate.
+#.  Check if estimate contains the Zoho Project.
+
 .. image:: img/cost_items.png
      :alt: Alternative text
-     :width: 200
-     :height: 200
-     :align: left
+    
+#.  Create a Map of custom fields to compare with estimate custom fields. Also add project id into Map.
+#.  Fetch Estimate custom fields and compare it with above created Map of Sales Order custom fields.    
+  Also add Project id into Map.
+#.  Get all line items detials from estimate and create a JSON map for Sales Order creation. 
+#.  Also add Project id into Line Items.
 #.  Get all line items detials from 
 #.  In this function we are creating Sales Order when estimate is accepted.
 
