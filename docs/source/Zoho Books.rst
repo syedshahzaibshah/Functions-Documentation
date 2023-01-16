@@ -22,8 +22,10 @@ Estimates
      :alt: Alternative text
     
 #.  Create a Map of custom fields to compare with estimate custom fields. Also add project id into Map.
-#.  Fetch Estimate custom fields and compare it with above created Map of Sales Order custom fields.    
-  Also add Project id into Map.
+#.  Fetch Estimate custom fields and compare it with above created Map of Sales Order custom fields.
+#.  Check if salesperson is not empty field.
+#.  Check if contact persons is not empty field.
+#.  Check discount type. If type is entity_level and a discount at entity level or if its on item level add it on item level.
 #.  Get all line items detials from estimate and create a JSON map for Sales Order creation. 
 #.  Also add Project id into Line Items.
 #.  Get all line items detials from 
