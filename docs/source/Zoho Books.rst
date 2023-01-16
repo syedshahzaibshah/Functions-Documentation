@@ -44,7 +44,7 @@ Sales Orders
      :align: center
   
   
-2.  List the vendors from cost items and remove duplicates.
+2.  List the vendors from cost items and remove duplicates s.
 3.  Get all cost items against vendors and create a PO.
 4.  Create a PO.
 5.  Update PO number on Estimate
