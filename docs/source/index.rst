@@ -8,8 +8,7 @@ ZOHO Functions Documentation
      :height: 200
      :scale: 50%
      :alt: Alternative text
-     :align: center
-
+    
 Contents
 --------
 
