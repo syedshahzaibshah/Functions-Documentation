@@ -11,10 +11,19 @@ Estimates
   +------------------------+---------------+-----------+-------------+----------------+----------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status  |
   +========================+===============+===========+=============+================+==========+
-  | Zoho Books             |    Estimate   |    Yes    |      No     |       No       |   Livee  |
+  | Zoho Books             |    Estimate   |    Yes    |      No     |       No       |   Live   |
   +------------------------+---------------+-----------+-------------+----------------+----------+
 
-   Create Sales Order when estimate is accepted. Live (11 Jan 2023).
+**Steps:**
+
+#.  Check is Zoho Project is associated with Estimate.
+.. image:: img/cost_items.png
+     :alt: Alternative text
+     :width: 200
+     :height: 200
+     :align: left
+#.  Get all line items detials from 
+#.  In this function we are creating Sales Order when estimate is accepted.
 
 Sales Orders
 ------------
@@ -41,7 +50,9 @@ Sales Orders
   
 .. image:: img/cost_items.png
      :alt: Alternative text
-     :align: center
+     :width: 200
+     :height: 200
+     :align: left
   
   
 2.  List the vendors from cost items and remove duplicates s.
