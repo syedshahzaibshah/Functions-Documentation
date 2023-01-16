@@ -11,7 +11,7 @@ Estimates
   +------------------------+---------------+-----------+-------------+----------------+----------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status  |
   +========================+===============+===========+=============+================+==========+
-  | Zoho Books             |    Estimate   |    Yes    |      No     |       No       |   Livee   |
+  | Zoho Books             |    Estimate   |    Yes    |      No     |       No       |   Livee  |
   +------------------------+---------------+-----------+-------------+----------------+----------+
 
    Create Sales Order when estimate is accepted. Live (11 Jan 2023).
