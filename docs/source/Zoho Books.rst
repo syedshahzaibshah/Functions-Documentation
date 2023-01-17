@@ -114,7 +114,7 @@ Sales Orders
     * Push new Expected Installation date from Sales Order Zoho Project.
     * Send an email to Brittani Shipek & Sharjeel Farooq.
 
-.. image:: img/Salesorder.png
+.. image:: img/email.png
      :alt: Alternative text
      
     
