@@ -116,34 +116,10 @@ Sales Orders
 
 .. image:: img/email.png
      :alt: Alternative text
-     
+     :width: 800
+     :height: 500
+     :align: left
     
-#.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
-#.  Create a Sales Order.
-
-#.  Submit Sales Order for approval.
-
-..  code-block:: php
- 
-	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "/submit"
-
-11. Approve the Sales Order.
-
-..  code-block:: php
-  
-	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "/approve"
-
-12.  Mark Sales Order as Confiremd/Open.
-
-..  code-block:: php
-  
-	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "//status/open"
-
-13.  Update the following fields on Zoho Project.
-
-     * Update Sales Order Number on Zoho Project.
-     * Status of Salesorder will be updated as Zoho Project Status & Substatus.
-
 - **Update Sales Order to Purchase Order**
 
   +------------------------+---------------+-----------+-------------+----------------+---------+
