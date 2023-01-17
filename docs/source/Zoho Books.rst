@@ -33,7 +33,22 @@ Estimates
 #.  Add sales person into Sales Order.
 #.  Add contact persons into Sales Order.
 #.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
-#.  Create a Sales Order. 
+#.  Create a Sales Order.
+
+..  code-block:: php
+    :caption: EXT:site_package/Configuration/TCA/Overrides/sys_template.php
+    :linenos:
+    :emphasize-lines: 4, 7
+
+    /**
+     * Add default TypoScript (constants and setup)
+     */
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+         'site_package',
+         'Configuration/TypoScript',
+         'Site Package'
+    );
+
 #.  Submit Sales Order for approval.
 #.  Approve the Sales Order.
 #.  Mark Sales Order as Confiremd/Open.
