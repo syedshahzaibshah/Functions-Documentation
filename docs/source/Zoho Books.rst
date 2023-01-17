@@ -21,14 +21,18 @@ Estimates
 .. image:: img/estimate.png
      :alt: Alternative text
     
-2.  Create a Map(JSON) of all custom fields to compare with estimate custom fields in next step. Also add project id into Map.
-#.  Fetch Sales Order custom fields and compare it with above created Map of Estimate custom fields with following conditions.
-    a. Both fields are active.
-    b. Data type of fields are same.
-    c. Label of both fields are same.
-#.  Check if salesperson is not empty field.
-#.  Check if contact persons is not empty field.
+#.  Creating a Map(JSON) of all custom fields to compare it with estimate custom fields in next step. Also add project id into Map.
+#.  Fetching Sales Order custom fields to compare it with above created Map of Estimate custom fields with following conditions.
+
+    * Check if both fields are active.
+    * Data type of fields should be same.
+    * Label of both fields should be same.
+
+#.  If project id was not null add project into salesorder.
 #.  Check discount type. If type is entity_level and a discount at entity level or if its on item level add it on item level.
+#.  Check if salesperson is not empty field else add it into Sales Order.
+#.  Check if contact persons is not empty field add it into Sales Order.
+#.  Add all custom fields in Sales Order which were campared in step 3.
 #.  Get all line items detials from estimate and create a JSON map for Sales Order creation. 
 #.  Also add Project id into Line Items.
 #.  Get all line items detials from 
