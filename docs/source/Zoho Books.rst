@@ -18,7 +18,7 @@ Estimates
 
 #.  Check if estimate contains the Zoho Project.
 
-.. image:: img/estimate.png
+.. image:: img/estimate_img.png
      :alt: Alternative text
     
 2.  Create a Map(JSON) of all custom fields to compare it with Sales Order custom fields in next step. Also add project id into Map.
