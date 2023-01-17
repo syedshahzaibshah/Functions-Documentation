@@ -18,11 +18,14 @@ Estimates
 
 #.  Check if estimate contains the Zoho Project.
 
-.. image:: img/cost_items.png
+.. image:: img/estimate.png
      :alt: Alternative text
     
-#.  Create a Map of custom fields to compare with estimate custom fields. Also add project id into Map.
-#.  Fetch Estimate custom fields and compare it with above created Map of Sales Order custom fields.
+2.  Create a Map(JSON) of all custom fields to compare with estimate custom fields in next step. Also add project id into Map.
+#.  Fetch Sales Order custom fields and compare it with above created Map of Estimate custom fields with following conditions.
+    a. Both fields are active.
+    b. Data type of fields are same.
+    c. Label of both fields are same.
 #.  Check if salesperson is not empty field.
 #.  Check if contact persons is not empty field.
 #.  Check discount type. If type is entity_level and a discount at entity level or if its on item level add it on item level.
