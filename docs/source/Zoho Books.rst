@@ -25,8 +25,8 @@ Estimates
 #.  Fetching Sales Order custom fields to compare it with above created Map of Estimate custom fields with following conditions.
 
     * Check if both fields are active.
-    * Data type of fields should be same.
-    * Label of both fields should be same.
+    * Data type of fields are same.
+    * Label of both fields are same.
 
 #.  If project id was not null add project into salesorder.
 #.  Check discount type. If type is entity_level and a discount at entity level or if its on item level add it on item level.
