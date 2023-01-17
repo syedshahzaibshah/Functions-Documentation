@@ -21,7 +21,7 @@ Estimates
 .. image:: img/estimate.png
      :alt: Alternative text
     
-#.  Create a Map(JSON) of all custom fields to compare it with estimate custom fields in next step. Also add project id into Map.
+2.  Create a Map(JSON) of all custom fields to compare it with Sales Order custom fields in next step. Also add project id into Map.
 #.  Fetch Sales Order custom fields to compare it with above created Map of Estimate custom fields against following conditions.
 
     * Check if both fields are active.
@@ -29,19 +29,18 @@ Estimates
     * Label of both fields are same.
 
 #.  If project id was not null add it into the custom fields Map.
-#.  Add Discount by checking discount type.
-#.  Add sales person  into Sales Order if it not empty.
-#.  Check if contact persons field is not empty, add it into Sales Order.
-#.  Add all custom fields in Sales Order which were campared in step 3.
+#.  Add Discount by checking discount type. It may be on item level or entity level.
+#.  Add sales person into Sales Order.
+#.  Add contact persons into Sales Order.
+#.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
 #.  Create a Sales Order. 
 #.  Submit Sales Order for approval.
 #.  Approve the Sales Order.
-#.  Mark Saleorder as Confiremd/Open
+#.  Mark Sales Order as Confiremd/Open.
 #.  Update the following fields on Zoho Project.
 
     * Update Sales Order Number on Zoho Project.
-    * Status of Salesorder -> Status & Substatus of Zoho Project.
-    * Data type of fields are same.
+    * Status of Salesorder will be updated as Zoho Project Status & Substatus.
 
 Sales Orders
 ------------
