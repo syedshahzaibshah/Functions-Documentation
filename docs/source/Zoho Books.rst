@@ -57,6 +57,14 @@ Estimates
 
      * Update Sales Order Number on Zoho Project.
      * Status of Salesorder will be updated as Zoho Project Status & Substatus.
+     
+- **Update Cost Items**
+
+  +------------------------+---------------+-----------+-------------+----------------+------------+
+  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |   Status   |
+  +========================+===============+===========+=============+================+============+
+  | Zoho Books             |  Sales Order  |    Yes    |     Yes     |       No       |   Pending  |
+  +------------------------+---------------+-----------+-------------+----------------+------------+
 
 Sales Orders
 ------------
@@ -120,43 +128,14 @@ Sales Orders
      :height: 500
      :align: left
     
-- **Update Sales Order to Purchase Order**
+- **Convert Sales Order to Purchase Order**
 
-  +------------------------+---------------+-----------+-------------+----------------+---------+
-  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
+  +------------------------+---------------+-----------+-------------+----------------+------------+
+  |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |    Status  |
   +========================+===============+===========+=============+================+=========+
-  | Zoho Books             |  Sales Order  |     No    |     Yes     |       No       |   Live  |
+  | Zoho Books             |  Sales Order  |     No    |     Yes     |       No       |   Pending  |
   +------------------------+---------------+-----------+-------------+----------------+---------+
 
-  **Steps:**
-  
-  #.  Search all ``cost items(custom module)`` by using estimate line items.
-  
-.. image:: img/cost_items.png
-     :alt: Alternative text
-     :width: 200
-     :height: 200
-     :align: left
-  
-  
-2.  List the vendors from cost items and remove duplicates s.
-3.  Get all cost items against vendors and create a PO.
-4.  Create a PO.
-5.  Update PO number on Estimate
-  
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+  
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
