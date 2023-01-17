@@ -82,7 +82,7 @@ Sales Orders
     * Production Managers.
 
 3.  Update Sales Order Number on Zoho Project.
-#.  Update the status on Zoho Project as it is on Sales Order.
+#.  Update the status on Zoho Project as it is on Sales Order as under:
 
 +---------------------------------+------------------------+---------------------------+
 |        Sales Order Status       |  Zoho Project Status   |  Zoho Project Sub Status  |                
@@ -108,8 +108,16 @@ Sales Orders
 |              Survey             |         Survey         |          Survey           |
 +---------------------------------+------------------------+---------------------------+
 
-#.  Add sales person into Sales Order.
-#.  Add contact persons into Sales Order.
+5.  If Zoho Project does not contains Expected Installation Date, pull it form Sales Order.
+#.  If Zoho Project contains Expected Installation Date, and if it is different from Sales Order:
+
+    * Push new Expected Installation date from Sales Order Zoho Project.
+    * Send an email to Brittani Shipek & Sharjeel Farooq.
+
+.. image:: img/Salesorder.png
+     :alt: Alternative text
+     
+    
 #.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
 #.  Create a Sales Order.
 
