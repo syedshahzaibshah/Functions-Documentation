@@ -55,8 +55,8 @@ Estimates
 
 13.  Update the following fields on Zoho Project.
 
-    * Update Sales Order Number on Zoho Project.
-    * Status of Salesorder will be updated as Zoho Project Status & Substatus.
+     * Update Sales Order Number on Zoho Project.
+     * Status of Salesorder will be updated as Zoho Project Status & Substatus.
 
 Sales Orders
 ------------
