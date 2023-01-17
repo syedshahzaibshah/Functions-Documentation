@@ -4,7 +4,7 @@ Zoho Books
 .. _estimates:
 
 Estimates
----------
+---------                                                                                                        																							
 
 - **Convert Estimate to Sales Order**  (11 Jan 2023)
 
@@ -57,7 +57,7 @@ Estimates
 
      * Update Sales Order Number on Zoho Project.
      * Status of Salesorder will be updated as Zoho Project Status & Substatus.
-
+|
 - **Update Cost Items**
 
   +------------------------+---------------+-----------+-------------+----------------+------------+
@@ -65,7 +65,8 @@ Estimates
   +========================+===============+===========+=============+================+============+
   | Zoho Books             |  Sales Order  |    Yes    |     Yes     |       No       |   Pending  |
   +------------------------+---------------+-----------+-------------+----------------+------------+
-
+|
+|
 Sales Orders
 ------------
 
@@ -127,7 +128,7 @@ Sales Orders
      :width: 800
      :height: 500
      :align: left
-    
+|    
 - **Convert Sales Order to Purchase Order**
 
   +------------------------+---------------+-----------+-------------+----------------+------------+
