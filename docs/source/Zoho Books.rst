@@ -72,18 +72,40 @@ Sales Orders
 
 #.  Check if Sales Order contains the Zoho Project.
 
-.. image:: img/estimate_img.png
+.. image:: img/Salesorder.png
      :alt: Alternative text
     
-2.  Create a Map(JSON) of all custom fields to compare it with Sales Order custom fields in next step. Also add project id into Map.
-#.  Fetch Sales Order custom fields to compare it with above created Map of Estimate custom fields against following conditions.
+2.  Push the following fields on Zoho Project.
 
-    * Check if both fields are active.
-    * Data type of fields are same.
-    * Label of both fields are same.
+    * Expected Install Date.
+    * Project Managers.
+    * Production Managers.
 
-#.  If project id was not null add it into the custom fields Map.
-#.  Add Discount by checking discount type. It may be on item level or entity level.
+3.  Update Sales Order Number on Zoho Project.
+#.  Update the status on Zoho Project as it is on Sales Order.
+
+  +---------------------------------+------------------------+---------------------------+
+  |        Sales Order Status       |  Zoho Project Status   |  Zoho Project Sub Status  |                
+  +=================================+========================+===========================+
+  |               Open              |        Approved        |          Approved         |
+  +---------------------------------+------------------------+---------------------------+
+  |               Void              |        Declined        |          Declined         |
+  +---------------------------------+------------------------+---------------------------+
+  |            Production           |        Production      |          Production       |
+  +---------------------------------+------------------------+---------------------------+
+  |          Order Material         |        Production      |          Production       |
+  +---------------------------------+------------------------+---------------------------+
+  |             Permitting          |         Permit         |          Permit           |
+  +---------------------------------+------------------------+---------------------------+
+  |             Installing          |      Installation      |        Installation       |
+  +---------------------------------+------------------------+---------------------------+
+  |      Waiting for Fulfilment     |       Order Setup      |         Order Setup       |
+  +---------------------------------+------------------------+---------------------------+
+  |          Being Fulfiled         |       Order Setup      |         Order Setup       |
+  +---------------------------------+------------------------+---------------------------+
+  |              Service            |         Service        |          Service          |
+  +---------------------------------+------------------------+---------------------------+
+
 #.  Add sales person into Sales Order.
 #.  Add contact persons into Sales Order.
 #.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
