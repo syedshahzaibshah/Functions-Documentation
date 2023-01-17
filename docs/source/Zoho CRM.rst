@@ -4,4 +4,4 @@ Zoho CRM
 .. autosummary::
    :toctree: generated
 
-   lumache
+   Blink Signs
