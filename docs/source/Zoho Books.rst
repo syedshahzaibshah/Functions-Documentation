@@ -57,7 +57,7 @@ Estimates
 
      * Update Sales Order Number on Zoho Project.
      * Status of Salesorder will be updated as Zoho Project Status & Substatus.
-     
+
 - **Update Cost Items**
 
   +------------------------+---------------+-----------+-------------+----------------+------------+
