@@ -51,7 +51,7 @@ Estimates
 
 ..  code-block:: php
   
-	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "//status/open"
+	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "/status/open"
 
 13.  Update the following fields on Zoho Project.
 
