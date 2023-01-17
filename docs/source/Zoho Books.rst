@@ -61,15 +61,58 @@ Estimates
 Sales Orders
 ------------
 
-- **Convert Sales Order to Purchase Order**
+- **Update SO Data on Zoho Project (Status & Installation Date)**
 
   +------------------------+---------------+-----------+-------------+----------------+---------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
   +========================+===============+===========+=============+================+=========+
-  | Zoho Books             |  Sales Order  |    Yes    |      No     |       No       |   Live  |
+  | Zoho Books             |  Sales Order  |     No    |     Yes     |       No       |   Live  |
   +------------------------+---------------+-----------+-------------+----------------+---------+
+**Steps:**
 
-- **Update SO Details on Zoho Project**
+#.  Check if Sales Order contains the Zoho Project.
+
+.. image:: img/estimate_img.png
+     :alt: Alternative text
+    
+2.  Create a Map(JSON) of all custom fields to compare it with Sales Order custom fields in next step. Also add project id into Map.
+#.  Fetch Sales Order custom fields to compare it with above created Map of Estimate custom fields against following conditions.
+
+    * Check if both fields are active.
+    * Data type of fields are same.
+    * Label of both fields are same.
+
+#.  If project id was not null add it into the custom fields Map.
+#.  Add Discount by checking discount type. It may be on item level or entity level.
+#.  Add sales person into Sales Order.
+#.  Add contact persons into Sales Order.
+#.  Add all custom fields in Sales Order which were campared in step 3 along with Project id.
+#.  Create a Sales Order.
+
+#.  Submit Sales Order for approval.
+
+..  code-block:: php
+ 
+	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "/submit"
+
+11. Approve the Sales Order.
+
+..  code-block:: php
+  
+	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "/approve"
+
+12.  Mark Sales Order as Confiremd/Open.
+
+..  code-block:: php
+  
+	  url :"https://books.zoho.com/api/v3/salesorders/" + salesorder_id + "//status/open"
+
+13.  Update the following fields on Zoho Project.
+
+     * Update Sales Order Number on Zoho Project.
+     * Status of Salesorder will be updated as Zoho Project Status & Substatus.
+
+- **Update Sales Order to Purchase Order**
 
   +------------------------+---------------+-----------+-------------+----------------+---------+
   |        Zoho App        |  Module Name  | On Button | On Workflow |  On Scheduler  |  Status |
